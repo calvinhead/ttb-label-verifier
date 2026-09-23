@@ -17,8 +17,7 @@ short_description: label verifier
 A prototype Gradio app that checks an alcohol-beverage **label photo** against the
 **expected values from its application** and returns **APPROVE / REJECT / NEEDS
 REVIEW**, with a per-field breakdown so a compliance reviewer can see *why*. It
-has a single-label mode and a batch mode. Built as a take-home for a TTB / U.S.
-Treasury AI Engineer role.
+has a single-label mode and a batch mode.
 
 Field extraction uses a fast vision model (Anthropic `claude-haiku-4-5`); all
 verdict logic is local, pure, and unit-tested.
